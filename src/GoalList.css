@@ -1,0 +1,97 @@
+.container-div {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem auto;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0 auto;
+  color: #b36ff2;
+  text-shadow: 3px 2px 0px #f1f5f8;
+}
+
+.form {
+  display: flex;
+  margin: 10px auto;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.input {
+  padding: 10px 20px;
+  line-height: 10px;
+  caret-color: #49a6e9;
+  background-color: #eef9fd;
+}
+
+.btn {
+  margin: 9px auto;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  transition: all 0.8s;
+  background: #49a6e9;
+  border-color: #fff;
+  color: #eef9fd;
+  font-weight: bold;
+}
+
+.underlines {
+  width: 20rem;
+  height: 0.25rem;
+  background: #49a6e9;
+  margin-top: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.underline {
+  width: 4rem;
+  height: 0.25rem;
+  background: #49a6e9;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list-container {
+  display: flex;
+  margin: 1rem auto;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #b36ff2;
+  width: 400px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  box-shadow: rgba(2, 255, 255, 0.646) 0px 3px 8px;
+  animation-name: list-container;
+}
+
+.list-container:hover {
+  box-shadow: rgba(248, 250, 251, 0.12) 0px 2px 4px 0px,
+    rgba(237, 240, 241, 0.32) 0px 2px 16px 0px;
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+
+.goal {
+  margin-left: 4px;
+  color: #f1f5f8;
+}
+
+.button {
+  margin-right: 4px;
+  padding: 3px 5px;
+  border-radius: 5px;
+  border: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #eef9fd;
+}
